@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Grouping Tags</title>
+  <style>
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      background-color: dimgrey;
+    }
+    
+    header {
+      background-color: white;
+      padding: 10px;
+      margin: 10px;
+    }
+    
+    nav {
+      background-color: rgb(102, 102, 102);
+      padding: 3px;
+      box-shadow: 1px 1px 1px black;
+      /*
+      1°arg: horizontal
+      2°arg: vertical
+      3°arg: espalhamento
+      4°arg(px): área 
+      */
+    }
+    
+    nav > a {
+     text-decoration: none;
+     color: white;
+     font-weight: bold;
+     margin-right:30px;
+    }
+    
+    nav > a:hover {
+      text-decoration: underline;
+    }
+    
+    main {
+      background-color: white;
+      padding: 10px;
+      margin: 10px;
+      border-radius: 20px 0px;
+    }
+    
+    article {
+      background-color: lightgray;
+    }
+    
+    article > aside {
+      background-color: rgb(165, 165, 165);
+    }
+    
+    footer {
+      background-color: black;
+      color: white;
+      text-align: center;
+      padding: 13px;
+      margin: 10px;
+    }
+    
+    footer > p {
+      margin: 0;
+    }
+    
+    .conteudo-article {
+      text-indent: 1em;
+    }
+    
+    div#bola {
+      background-color: white;
+      width: 100px;
+      height: 100px;
+      margin:20px;
+      border-radius: 50%;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Meu site</h1>
+    <nav>
+      <a href="#">Link</a>
+      <a href="#">Link</a>
+      <a href="#">Link</a>
+      <a href="#">Link</a>
+      <a href="#">Link</a>
+    </nav>
+  </header>
+  <main>
+    <section id="assuntos">
+    <article>
+      <h2>Notícias sobre o Japão</h2>
+      <p class="conteudo-article">O meu nome é Yoshikage Kira, tenho 33 anos, moro na zona noroeste da cidade de Morioh, eu não sou casado, sou empresário da loja de departamentos Kameyu e chega em casa todo dia por volta das oito horas, eu não sou fumante e bebo apenas socialmente, eu me deito todo dia às onze horas e faço questão de dormir por 8 horas não importa oque aconteça, desde que eu possa tomar um copo de leite quente e me exercitar fazendo alongamentos por pelo menos 20 minutos antes de ir pra cama, eu costumo ter um sono interrúpto e acordo pela manhã sem o mínimo cansaço ou estresse, como se fosse um bebezinho despreocupado, no meu último check-up de saúde não encontraram nenhum problema, eu estou dizendo isso para mostrar que sou uma pessoa tranquila que evita se envolver em encrencas ou criar inimizades e tenho certeza de que vivendo assim eu consigo ser feliz, porém se eu tiver que enfrentar alguém eu sei que ninguém me dertotaria, esta é minha habilidade Killer Queen, a ver dizer esse é o nome que eu mesmo decidi dar à essa entidade, resumidamente você é um incômodo capaz de me tirar o sono a noite, portanto é meu inimigo, agora eu vou te matar antes que você consiga contar algo para alguém, eu preciso garantir meu sono tranquilo</p>
+      <aside>
+        <p>Artigo escrito por Hiago Índio</p>
+      </aside>
+    </article>
+    </section>
+    <section id="noticias">
+      <article>
+        <h2>Notícia sobre o Brasil</h2>
+        <p class="conteudo-article">Eu finjo que não percebo, mas tudo está sendo observado. O esperto se faz de bobo para ver até onde o burro se faz de inteligente. Nesse jogo sutil, cada movimento é estratégico e cada palavra tem um significado oculto por trás do meu sorriso sereno. Estou atento a cada detalhe, absorvendo informações e compreendendo motivações. Aprendi que nem sempre é prudente revelar todas as cartas que tenho na manga, pois o conhecimento é poder e a paciência é uma virtude. Às vezes é mais sábio agir com discrição, permitindo que outros revelem suas intenções sem interferência. Afinal, a melhor defesa é a percepção aguçada, capaz de desvendar as tramas sutis que permeiam as interações humanas. Enquanto alguns tentam me iludir com suas artimanhas, observo calmamente, ciente de que minha aparente ingenuidade é apenas uma estratégia para extrair informações e desvendar as camadas ocultas das personalidades alheias. Não se trata de malícia, mas sim de autopreservação, de proteger meus valores e princípios enquanto navego por um mar de relações complexas e desafios diários.</p>
+        <aside>
+          <p>Artigo escrito por yumi</p>
+        </aside>
+      </article>
+      <article>
+        
+      </article>
+    </section>
+  </main>
+  <footer>
+    <p>Desenvolvido por <a href="#">jptn_games</a></p>
+  </footer>
+  <div id="bola"></div>
+</body>
+</html>
